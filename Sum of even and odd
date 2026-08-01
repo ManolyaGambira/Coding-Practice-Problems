@@ -1,0 +1,11 @@
+N=input()
+e_sum=0
+o_sum=0
+for j in N:
+    i=int(j)
+    if i%2==0:
+        e_sum+=i
+    else:
+        o_sum+=i
+print(e_sum,end=" ")
+print(o_sum)
