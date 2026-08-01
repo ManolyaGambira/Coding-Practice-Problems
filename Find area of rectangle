@@ -1,0 +1,6 @@
+def area(length , breadth){
+        return length*breadth
+}
+length=int(input())
+breadth=int(input())
+print(area(length,breadth))
